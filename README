@@ -1,0 +1,14 @@
+
+doppelgaenger n 
+  goes back n days and dumps a hash-table of alter egos;
+  [real_cookie_id]  => [real_cookie_id, wrong_sifi_uid1, wrong_sifi_uid2, ..]
+  data is computed from the ads-logs on dca1
+  /data/doppelgaenger/doppelgaenger.mar
+
+store_segments_and_conversions
+  stores segments and conversions with the userids behind them
+  /data/doppelgaenger/company_id/dd/hour/segment_name
+  /data/doppelgaenger/company_id/dd/hour/conversion_type[0|10|20|..]
+
+
+
